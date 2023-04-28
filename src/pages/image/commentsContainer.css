@@ -1,0 +1,26 @@
+#comments-container{ 
+    background-color: rgb(65, 59, 59); 
+    text-align: left; 
+    color: rgb(185, 150, 150); 
+    font-family:'Times New Roman', Times, serif; 
+}
+#comment-form{ 
+    align-items: left; 
+    background-color: rgb(63, 62, 62); 
+}
+#name{ 
+    background-color: rgb(88, 60, 60); 
+    color: white; 
+}
+#comment{ 
+    background-color: rgb(77, 59, 59); 
+    color: white; 
+}
+button{ 
+    background-color:black; 
+    color: white; 
+
+}
+#x-button{ 
+    left: 0; top: 0; 
+}

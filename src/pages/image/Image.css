@@ -1,0 +1,45 @@
+.image{
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    opacity: .5; 
+  }
+  
+  .image:hover{ 
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5); 
+    filter: none; 
+    opacity: .8;
+  }
+  
+  .parent{ 
+    position: relative; 
+    text-align: center;
+  }
+  
+  .imageButtons{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .parent:hover .imageButtons{ 
+    opacity: 1; 
+  }
+  
+  .individualButton{ 
+    color: rgb(226, 174, 174); 
+    background-color: black; 
+    font-size: 20px; 
+    width: 100%;  
+    height: 100%; 
+    opacity: .1; 
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  .individualButton:hover{ 
+    opacity:1
+  }
+  

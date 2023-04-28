@@ -1,0 +1,75 @@
+
+
+body {
+  /* background-image: url('http://liamsilvart.com/hutt.jpg'); */
+  background-repeat: no-repeat; 
+  background-color: black; 
+  margin: 0;
+  background-attachment: fixed; 
+
+}
+
+html{ 
+  scroll-behavior: smooth; 
+
+}
+
+#image-container{ 
+  position: fixed; 
+  z-index: 3; 
+  width: 100%; 
+  height: 100%; 
+}
+#image{ 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 2; 
+  display: block; 
+  max-width: 100%; 
+  max-height: 100%; 
+   
+}
+/* #over-image{ 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 1; 
+  display: block; 
+  max-width: 100%; 
+  max-height: 100%; 
+  
+} */
+
+.my-image-map{ 
+  z-index: 4; 
+  
+}
+
+.images{ 
+  object-fit: cover; 
+
+}
+
+
+
+#content-container {
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  width: 60%;
+  height: 100%;
+  z-index: 3;
+}
+
+#scrollable-container{ 
+  position: relative; 
+}
+
+
+.about-page-text{ 
+  color:lightblue; 
+  font-size: .8rem;
+}
+
+

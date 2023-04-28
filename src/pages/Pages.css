@@ -1,0 +1,78 @@
+.AboutText{ 
+    color:white; 
+    opacity: .6; 
+}
+.AboutText:hover{ 
+    opacity: .9; 
+}
+
+body{ 
+    
+    color:white;
+
+}
+
+#type{ 
+    color: rgb(72, 100, 27); 
+    background-color: rgb(221, 221, 221); 
+    opacity: .5; 
+}
+
+/* .pages{ 
+    margin-top: 7%; 
+    margin-left: 7%; 
+    margin-right: 7%; 
+
+    
+    
+} */
+#artpagetitle{ 
+    color: lightblue;
+    overflow: hidden; 
+}
+
+.aboutPageTitle{ 
+    color: lightgreen; 
+    opacity: .6; 
+}
+.aboutPageTitle:hover{ 
+    opacity: 1; 
+}
+
+.imageContainer{ 
+    margin-top: 5%; 
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    overflow: hidden;
+}
+
+.headerContainer{ 
+    position: fixed; 
+
+}
+
+.MusicContainer{ 
+
+    opacity: .6;
+    
+}
+
+.ArtPageText{ 
+    color: rgb(124, 124, 184) ;
+    opacity: .6; 
+}
+.ArtPageText:hover{ 
+    opacity: .9; 
+}
+#ArtPageTitle{ 
+    opacity: .6; 
+    color: lightgreen; 
+}
+#ArtPageTitle:hover{ 
+    opacity: .9; 
+}
+#loading{ 
+    color: lightslategray; 
+    opacity: .5; 
+}
